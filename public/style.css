@@ -71,7 +71,10 @@ h3 {
   text-decoration: none;
 }
 .project .logo > * {
-  height: 50px;
+  height: 70px;
+}
+.project .logo img[src*="voice-pe"] {
+  height: 120px;
 }
 .project .name {
   margin-top: 8px;
