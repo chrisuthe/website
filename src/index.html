@@ -9,7 +9,7 @@ description: Open protocol for synchronized music experiences across devices.
 </h2>
 
 <p>
-  <i>Sendspin is a work in progress. The specification is subject to change.</i>
+  <i>Sendspin is in public preview. The specification is subject to change.</i>
 </p>
 
 <p>
@@ -24,38 +24,37 @@ description: Open protocol for synchronized music experiences across devices.
 
 <ul>
   <li>Play audio in sync across multiple speakers</li>
-  <li>Visualize audio playback on connected lights</li>
   <li>Offer music control and metadata from tablets or screens</li>
+  <li>
+    Visualize audio playback on connected lights
+    <small>(coming soon)</small>
+  </li>
 </ul>
 
 <h3>Try it out today</h3>
 
 <p>
-  Sendspin is actively being developed, and we have working implementations that
-  we're using to test the specification and validate the experience we want to
-  deliver.
+  Sendspin has been implemented in various products and projects to help
+  validate the experience we want to deliver. We're actively working with the
+  Open Home community to test the implementation, get feedback, and help shape
+  the future of the protocol.
 </p>
 
-<p>You can try a development version of Sendspin today:</p>
+<p>To try Sendspin today:</p>
 
 <ul>
   <li>
-    Stream music via Sendspin to any client using the beta version of
+    Stream music via Sendspin to any client using
     <a href="https://www.music-assistant.io" target="_blank">Music Assistant</a>
-    and play the stream simultaneously in browsers and Google Cast-enabeled
-    devices<sup>1</sup>.
+    and play the stream simultaneously in browsers and Google Cast-enabled
+    devices.<sup>1</sup>
   </li>
   <li>
     Play a Sendspin stream on the
     <a href="https://www.home-assistant.io/voice-pe/" target="_blank"
       >Home Assistant Voice Preview Edition</a
     >
-    (or a connected speaker via the AUX port) running a
-    <a
-      href="https://esphome.github.io/home-assistant-voice-pe-alpha/"
-      target="_blank"
-      >special Sendspin build</a
-    >
+    (or a speaker connected to it via the AUX port)
   </li>
   <li>
     Show album art and control your music from ESPHome using
@@ -67,7 +66,7 @@ description: Open protocol for synchronized music experiences across devices.
   </li>
   <li>
     Play a Sendspin stream from the command-line client using
-    <a href="https://github.com/Sendspin/sendspin" target="_blank"
+    <a href="https://github.com/Sendspin/sendspin-cli" target="_blank"
       >sendspin-cli</a
     >
   </li>
@@ -94,7 +93,7 @@ description: Open protocol for synchronized music experiences across devices.
 </p>
 
 <p>
-  <sup>1</sup> Enable experimental Sendspin mode in the settings of each Cast
+  <sup>1</sup> Enable experimental Sendspin mode in settings for each Cast
   player in Music Assistant.
 </p>
 
@@ -125,25 +124,6 @@ description: Open protocol for synchronized music experiences across devices.
   </a>
 </div>
 
-<h3>Roles in a Sendspin network</h3>
-
-<p>
-  Sendspin supports different device roles to create a complete listening
-  experience:
-</p>
-
-<ul>
-  <li><b>Speaker</b> – Any device that plays audio (speaker, phone etc.)</li>
-  <li>
-    <b>Visualizer</b> – Devices that visualize playback, such as LED strips,
-    TouchDesigner plugin or a Winamp-style visualizers
-  </li>
-  <li>
-    <b>Remote</b> – Devices that display metadata and allow the user to control
-    the music
-  </li>
-</ul>
-
 <h3>Why (yet another) new protocol?</h3>
 
 <p>
@@ -159,11 +139,17 @@ description: Open protocol for synchronized music experiences across devices.
 </p>
 
 <p>
-  Sendspin is an open standard that takes a unique approach by focusing on the
-  complete music listening experience. It goes beyond support for multi-room
-  audio playback and supports remote controls and audio visualization out of
-  the box.
+  We also believe that existing standards are incomplete. They focus solely on
+  audio streaming, while the complete music experience includes per-speaker DSP,
+  controlling playback and visualizing the music. Sendspin aims to fill that
+  gap.
 </p>
+
+<h3>Commercial usage</h3>
+
+Sendspin is available for commercial usage. For licensing information and
+certification,
+<a href="mailto:sendspin@openhomefoundation.org">contact us</a>.
 
 <h3>More Reading</h3>
 
