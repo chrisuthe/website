@@ -117,3 +117,18 @@ th,
 td {
   padding: 4px;
 }
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: rgba(129, 139, 152, 0.12);
+  border-radius: 6px;
+}
+
+pre code {
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+}

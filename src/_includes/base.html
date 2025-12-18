@@ -80,5 +80,9 @@ Sendspin: Music Experience Protocol
         </div>
       </div>
     </div>
+    {% if mermaid %}
+    <script src="/js/mermaid-11.12.2.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+    {% endif %}
   </body>
 </html>
