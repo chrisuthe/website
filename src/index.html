@@ -4,8 +4,8 @@ description: Open protocol for synchronized music experiences across devices.
 ---
 
 <h2>
-  Sendspin is an open standard for the complete music listening experience.
-  Listen, control & see your music.
+  Listen, control and see your music in every room with Sendspin, an open
+  standard for the complete music listening experience.
 </h2>
 
 <p>
@@ -44,7 +44,7 @@ description: Open protocol for synchronized music experiences across devices.
 
 <ul>
   <li>
-    Stream music via Sendspin to any client using
+    Stream music via Sendspin to any receiver using
     <a href="https://www.music-assistant.io" target="_blank">Music Assistant</a>
     and play the stream simultaneously in browsers and Google Cast-enabled
     devices.<sup>1</sup>
@@ -54,7 +54,25 @@ description: Open protocol for synchronized music experiences across devices.
     <a href="https://www.home-assistant.io/voice-pe/" target="_blank"
       >Home Assistant Voice Preview Edition</a
     >
-    (or a speaker connected to it via the AUX port) (requires the beta firmware)
+    (or a speaker connected to it via the AUX port)
+  </li>
+  <li>
+    Turn your Windows computer into a Sendspin receiver using
+    <a href="https://github.com/chrisuthe/windowsSpin/releases" target="_blank"
+      >windowsSpin</a
+    >
+  </li>
+</ul>
+
+<p>For nerds:</p>
+
+<ul>
+  <li>
+    If you want to see what Sendspin is capable off, and are familiar with
+    Python and the command-line, run
+    <code>uvx sendspin serve --demo</code>
+    (requires
+    <a href="https://docs.astral.sh/uv/#highlights" target="_blank">uv</a>)
   </li>
   <li>
     Show album art and control your music from ESPHome using
@@ -65,13 +83,13 @@ description: Open protocol for synchronized music experiences across devices.
     >
   </li>
   <li>
-    Play a Sendspin stream from the command-line client using
+    Play a Sendspin stream from the command-line receiver using
     <a href="https://github.com/Sendspin/sendspin-cli" target="_blank"
       >sendspin-cli</a
     >
   </li>
   <li>
-    Run a command-line server or client powered by
+    Run a command-line server or receiver powered by
     <a href="https://github.com/Sendspin/sendspin-go/releases" target="_blank"
       >sendspin-go</a
     >
