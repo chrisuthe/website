@@ -17,11 +17,9 @@ We're building what Apple's AirPlay and Google's Cast should have been: complete
 
 ### Our Core Goals
 
-**User Sovereignty**: You should control your devices, your data, and your music. Full stop. Open standards make this possible; proprietary protocols make it impossible.
-
 **Complete Experience**: Existing protocols stop at audio streaming. SendSpin orchestrates everything—the e-paper display showing album art, the speakers playing in perfect sync, and the smart lights pulsing to the rhythm.
 
-**Universal Compatibility**: Turn anything into a synchronized music system. ESP32 boards, Raspberry Pis, Android phones, web browsers, even old tablets—if it can connect to a network, it can probably be part of your SendSpin setup.
+**Open Source for Compatibility**: Turn anything into a synchronized music system. ESP32 boards, Raspberry Pis, Android phones, web browsers, even old tablets—if it can connect to a network, it can probably be part of your SendSpin setup.
 
 ## Experience Philosophy
 
@@ -37,7 +35,7 @@ How a player gets in sync is really up to the player, but for the best ecosystem
 
 - **Sophisticated, inaudible adjustments**: Small constant frame manipulation corrections and continual clock alignments that keep players playing together without anyone noticing. This is the ideal path: sync so good it's invisible.
 
-- **Smart resampling when needed**: If drift occurs, intelligent catch-up/slow-down that resamples audio sequences to match pitch, making corrections imperceptible rather than jarring.
+- **Smart resampling when needed**: If drift occurs, intelligent catch-up/slow-down that resamples audio sequences to match pitch, making corrections imperceptible rather than jarring could be a good option.
 
 - **Brief pauses as last resort**: If a player falls significantly out of sync, a momentary pause to re-anchor is acceptable—but if this happens frequently, it signals something fundamentally wrong. We surface clear diagnostics to help you fix the root cause (network issues, hardware limitations, configuration problems).
 
@@ -58,7 +56,6 @@ Not every device has the same capabilities, and that's fine. SendSpin adapts:
 - **Codec flexibility**: FLAC for lossless quality when bandwidth allows, Opus when it doesn't, automatic fallback to PCM if needed
 - **Role-based communication**: Speakers only get audio, displays only get metadata and artwork, controllers only get playback commands—no device receives data it can't use
 - **Network resilience**: WebSockets for local performance, WebRTC fallback for remote access
-
 - **Manual override**: Sometimes the algorithm doesn't know your quirky hardware. Manual sync offset controls let you fix what automation can't
 
 ### Developer-Friendly, Always
@@ -66,7 +63,7 @@ Not every device has the same capabilities, and that's fine. SendSpin adapts:
 SendSpin is designed to be extended, not just used. Every decision favors openness:
 
 - **Open specification**: Fully documented protocol anyone can implement
-- **Multiple implementations**: Python, Go, Rust, JavaScript—use what you know
+- **Multiple implementations**: Python, Go, Rust, C#, JavaScript—use what you know
 - **Permissive licensing**: Apache 2.0 means commercial use is welcome
 - **Living standard**: The spec evolves with community input, not corporate roadmaps
-
+- **Commercial Validation**: Yet to be determined validation process for commercial "Works With" program that is not aimed at collecting fees but rather at ensuring a positive experience for the end user. Validate code, use it multiple times without re-validating.
