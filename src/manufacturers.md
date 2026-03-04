@@ -6,7 +6,7 @@ description: "Sendspin offers audio hardware manufacturers an open alternative t
 
 ## Build premium audio experiences with Sendspin
 
-**Sendspin is an open alternative to Apple AirPlay and Google Cast, with extra control and visualization features to create a truly immersive music experience for your customers.**
+Sendspin is an open alternative to Apple AirPlay and Google Cast, with extra control and visualization features to create a truly immersive music experience for your customers.
 
 <p><a href="mailto:sendspin@openhomefoundation.org" class="cta-button">Contact our partner team</a></p>
 
